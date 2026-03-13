@@ -9,7 +9,7 @@ variable "aws_region" {
 variable "aws_instance_type" {
   description = "Defines the type of EC2 instance to be created (e.g., t2.micro, t3.small)."
   type        = string
-  default     = "t2.medium"
+  default     = "t3.medium"
 }
 
 variable "aws_instance_name" {
